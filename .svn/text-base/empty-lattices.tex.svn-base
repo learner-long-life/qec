@@ -1,0 +1,26 @@
+\documentclass[12pt]{article}
+\usepackage{pstricks}
+\usepackage{pst-3dplot}
+\usepackage{fullpage}
+\pagestyle{empty}
+
+\input{lattice3d}
+
+\def\emptycube{
+\begin{pspicture}(-1.5,-1.75)(1.5,1.75)
+\lattice
+\end{pspicture}
+}
+
+\begin{document}
+
+\begin{tabular}{cccc}
+\emptycube & \emptycube & \emptycube & \emptycube \\
+\emptycube & \emptycube & \emptycube & \emptycube \\
+\emptycube & \emptycube & \emptycube & \emptycube \\
+\emptycube & \emptycube & \emptycube & \emptycube \\
+\emptycube & \emptycube & \emptycube & \emptycube \\
+\emptycube & \emptycube & \emptycube & \emptycube
+\end{tabular}
+
+\end{document}
